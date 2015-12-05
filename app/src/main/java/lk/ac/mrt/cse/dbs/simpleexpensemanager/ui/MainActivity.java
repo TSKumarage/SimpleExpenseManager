@@ -27,9 +27,7 @@ import android.support.v7.widget.Toolbar;
 
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.R;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.ExpenseManager;
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.InMemoryDemoExpenseManager;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.PersistentDemoExpenseManager;
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.exception.PersistentExpenseManager;
 
 public class MainActivity extends AppCompatActivity {
     private ExpenseManager expenseManager;
